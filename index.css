@@ -34,8 +34,8 @@ body {
 }
 .container3 img {
     border-radius: 100%;
-    width: 40%;
-    height: 95%;
+    width: 34%;
+    height: 90%;
 }
 .container5 {
     width: 55%;
@@ -72,11 +72,20 @@ body {
     }
 }
 @media (width<=800px) {
+    .container2 {
+        width: 90%;
+    }
     .container1 {
         width: 95%;
     }
     .text {
-        width: 65%;
+        width: 80%;
+    }
+    .container3 img {
+        width: 50%;
+    }
+    .container {
+        height: 880px;
     }
 }
 
@@ -84,24 +93,23 @@ body {
     .container1 {
         width: 100%;
     }
-    .container2 {
-        width: 80%;
-    }
-    .text {
-        width: 80%;
-    }
+
     .container5 {
         margin: 10% 0%;
     }
-}
-@media (width<=390px) {
-    .container1 {
-        width: 100%;
+    .container3 img {
+        width: 44%;
     }
+}
+@media (width<=397px) {
     .container2 {
-        width: 90%;
+        width: 97%;
+    }
+
+    .container3 img {
+        width: 54%;
     }
     .text {
-        width: 310px;
+        width: 90%;
     }
 }
