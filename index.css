@@ -84,9 +84,6 @@ body {
     .container3 img {
         width: 50%;
     }
-    .container {
-        height: 880px;
-    }
 }
 
 @media (width<=500px) {
